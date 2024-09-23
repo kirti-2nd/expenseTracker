@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 from pathlib import Path
 import gspread
 from google.oauth2.service_account import Credentials
-import os
+import json
 
 
 credentials_info = json.loads(st.secrets["GOOGLE_CREDENTIALS"])
